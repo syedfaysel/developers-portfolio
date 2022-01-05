@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    
+}
+p{
+    color: gray;
+}
+.name-style{
+    color: #FFB427;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    display: flex;
+    background-image: url('https://programminghero1.github.io/developer-portfolio/images/top-banner.png');
+    background-repeat: no-repeat;
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.flexible-container{
+    display: flex;
+}
+.experience-area{
+    
+    background-image: url('https://programminghero1.github.io/developer-portfolio/images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
+    color: #d614b1;
+    width: 40%;
+    height: 500px;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 5px;
+}
+#webdev{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,orange,blueviolet);
+    border-image-slice: 1;
+}
+#graphic{
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg,orange,rgb(223, 34, 240));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
